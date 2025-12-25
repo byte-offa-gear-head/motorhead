@@ -1,2 +1,32 @@
 # motorhead
-pit-crew-style roadside assistance app where beginners and experienced mechanics work together, easily swapping equipment and communicating directly with each other and car owners for quick, effective repairs.
+pit-crew-style roadside assistance app where beginners and experienced mechanics work together, easily swapping equipment and communicating directly with each other and car owners for quick, effective repai
+motorheads/
+  README.md
+  package.json
+  next.config.js
+  src/
+    app/
+      page.tsx
+      dashboard/
+        page.tsx
+      jobs/
+        page.tsx
+        [jobId]/
+          page.tsx
+    components/
+      JobCard.tsx
+      ChatBox.tsx
+      TroubleshootChecklist.tsx
+      ToolExchange.tsx
+    lib/
+      supabaseClient.ts
+      auth.ts
+    server/
+      jobs.ts
+      messages.ts
+      tools.ts
+    app/api/
+      jobs/route.ts
+      jobs/[jobId]/route.ts
+      messages/route.ts
+      tools/route.ts
